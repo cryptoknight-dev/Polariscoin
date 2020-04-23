@@ -14,7 +14,7 @@
 #include "spork.h"
 
 // Keep track of the active Masternode
-CActiveMasternode activeMasternode;
+CActiveMasternode activeMasternode; // comment
 
 //
 // Bootup the Masternode, look for a POL collateral input and register on the network
