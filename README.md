@@ -9,17 +9,17 @@ Furthermore, as result of offering multiple ways for users to mint new POL coins
 #
 
 #### Block times: - *1 minute* 
-#### Maximum supply: - *90,000,000 (90 million) POL*
+#### Maximum supply: - *21,000,000 (21 million) POL*
 #### Consensus mechanism: - *Proof-of-Stake (80% masternodes, 20% stakers)*
 #### Algorithm: - *Quark-hash* 
-#### Masternode collateral - *10,000 POL*  
+#### Masternode collateral - *5,000 POL*  
 #### Features: - *SwiftTX, budget, treausury and masternode governance is enabled* 
 #### RPC Port: - *7997* 
 #### P2P Port: - *7996* 
 
 ## Block reward breakdown
 
-#### Premine : 10,000,000 POL
+#### Premine : 750,000 POL
 #### Block 1 - 500,000 - 50 POL
 #### Block 500,001 - 1,000,000 - 25 POL
 #### Block 1,000,001 - 2,000,000 - 12.5 POL
