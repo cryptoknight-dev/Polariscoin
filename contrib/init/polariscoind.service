@@ -1,0 +1,26 @@
+[Unit]
+Description=Polariscoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=polariscoin
+Group=polariscoin
+
+Type=forking
+PIDFile=/var/lib/polariscoind/polariscoind.pid
+
+ExecStart=/usr/bin/polariscoind -daemon -pid=/var/lib/polariscoind/polariscoind.pid \
+          -conf=/etc/polariscoin/polariscoin.conf -datadir=/var/lib/polariscoind
+
+ExecStop=-/usr/bin/polariscoin-cli -conf=/etc/polariscoin/polariscoin.conf \
+         -datadir=/var/lib/polariscoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

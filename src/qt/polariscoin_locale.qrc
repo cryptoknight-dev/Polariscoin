@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/polariscoin_bg.qm</file>
+        <file alias="ca">locale/polariscoin_ca.qm</file>
+        <file alias="cs">locale/polariscoin_cs.qm</file>
+        <file alias="da">locale/polariscoin_da.qm</file>
+        <file alias="de">locale/polariscoin_de.qm</file>
+        <file alias="en">locale/polariscoin_en.qm</file>
+        <file alias="en_US">locale/polariscoin_en_US.qm</file>
+        <file alias="es">locale/polariscoin_es.qm</file>
+        <file alias="fi">locale/polariscoin_fi.qm</file>
+        <file alias="fr_FR">locale/polariscoin_fr_FR.qm</file>
+        <file alias="it">locale/polariscoin_it.qm</file>
+        <file alias="ja">locale/polariscoin_ja.qm</file>
+        <file alias="ko_KR">locale/polariscoin_ko_KR.qm</file>
+        <file alias="nl">locale/polariscoin_nl.qm</file>
+        <file alias="pl">locale/polariscoin_pl.qm</file>
+        <file alias="pt">locale/polariscoin_pt.qm</file>
+        <file alias="pt_BR">locale/polariscoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/polariscoin_ro_RO.qm</file>
+        <file alias="ru">locale/polariscoin_ru.qm</file>
+        <file alias="sk">locale/polariscoin_sk.qm</file>
+        <file alias="sv">locale/polariscoin_sv.qm</file>
+        <file alias="tr">locale/polariscoin_tr.qm</file>
+        <file alias="uk">locale/polariscoin_uk.qm</file>
+        <file alias="zh_CN">locale/polariscoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/polariscoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
